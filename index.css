@@ -1,0 +1,150 @@
+body{
+    margin: 0 0;
+    padding: 1em;
+    background:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+img{
+    width: 15rem;
+    height: 15rem;
+}
+
+a {
+    background:black;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+ul{
+    color: white;
+    display: none;
+    background-image:linear-gradient(#de6161, #2657eb);
+    width: 10em;
+    height: 8em;
+    padding: 1em 1em;
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+
+
+
+.topnav{
+    margin-left: 2rem;
+}
+
+.containerMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #055ff0;
+    background-image: url("images/city.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 1;
+    color: white;
+    border: 1px solid white;
+    margin: 1em 1em;
+  
+}
+
+.main {
+    margin: 20px;
+} 
+
+
+#day h3{
+    font-size: 5rem;
+    padding: 1em;
+    border-right: 2px solid white;
+}
+
+.main h4{
+    font-size: 1.5rem;
+}
+
+.details h4{
+    font-size: 1.5rem;
+}
+
+.container{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0 0;
+    
+
+}
+
+.time{
+    text-align: center;
+    color: white
+}
+
+.today,
+.tommorow,
+.day3,
+.day4
+{
+    border: 1px solid black;
+   padding: 0.5em 2em;
+    background-image: linear-gradient(to right, #1D4350, #A43931);
+    color: white;
+    border-radius: 20px;
+
+    
+}
+
+@media only screen and (max-width: 1500px){
+    #details{
+        text-align: center;
+    }
+    .containerMain{
+        flex-direction: column;
+        
+        margin: auto auto;
+        
+    }  
+    #day h3{
+        border-right: none;
+        margin-bottom: 2em;
+        margin: 2rem;
+        font-size: 4rem;
+    }
+    .container{
+        display: flex;
+        margin-top: 2em;
+        flex-wrap: wrap;
+    }
+    .today,
+.tommorow,
+.day3,
+.day4{
+    margin: 1em 1em;
+}
+body{
+    max-width: 50vh;
+    margin: auto auto;
+}
+}
+
+
+
+
